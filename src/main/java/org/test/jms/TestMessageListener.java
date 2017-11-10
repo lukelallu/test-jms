@@ -24,7 +24,7 @@ public class TestMessageListener {
 	private TestMessageSender messageSender_i;
 
 	//public static final String ON_NEW_PAYMENT = "jms/OnNewPayment";
-	public static final String ON_NEW_PAYMENT = "jms/P2P.NEW.PAYMENT";
+	public static final String ON_NEW_PAYMENT = "jms/TEST.NEW.PAYMENT";
 	public static final String P2P_PYMT_REQUEST = "jms/P2PPYMTREQUEST";
 	/**
 	 * Method implements JMS onMessage and acts as the entry

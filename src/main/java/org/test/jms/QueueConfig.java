@@ -18,7 +18,7 @@ import javax.jms.Queue;
 import javax.naming.NamingException;
 
 import static org.slf4j.LoggerFactory.getLogger;
-
+//Test Commit
 @Configuration
 @EnableJms
 @PropertySource("classpath:config.properties")
@@ -27,7 +27,7 @@ public class QueueConfig {
 	public static final String CONNECTION_FACTORY = "java:comp/env/jms/ConnectionFactory";
 	public static final String ON_DEBIT_NETWORK_TRANSACTION = "java:comp/env/jms/OnDebitNetworkTransaction";
 	public static final String ON_NEW_PAYMENT = "java:comp/env/jms/OnNewPayment";
-	public static final String P2P_PYMT_REQUEST = "java:comp/env/jms/P2PPYMTREQUEST";
+	public static final String TEST_PYMT_REQUEST = "java:comp/env/jms/TESTPYMTREQUEST";
 
 	private static final Logger logger = getLogger(QueueConfig.class);
 
